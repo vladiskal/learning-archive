@@ -1,0 +1,6 @@
+num = int(input("¿Qué número quiere analizar?: "))
+
+if num % 2 == 0 :
+    print("El número es ingresado es par")
+else:
+    print("El número ingresado es impar")
