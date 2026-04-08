@@ -1,1 +1,16 @@
+num = int(input("Ingrese el número de C° o F°: "))
 
+print("1. C° -> F°")
+print("2. F° -> C°")
+opcion = input("¿Qué operación desea?: ")
+
+if opcion == "1":
+    resultado = (num * 1.8) + 32
+    print(resultado)
+
+elif opcion == "2":
+    resultado = (num - 32) / 1.8
+    print(resultado)
+
+else:
+    print("Error")
