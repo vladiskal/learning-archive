@@ -1,0 +1,8 @@
+notas = [4.5, 5.0, 6.0]
+suma = 0
+
+for nota in notas:
+    suma = suma + nota
+promedio = suma / len(notas)
+
+print(f"El promedio es: {promedio}")
